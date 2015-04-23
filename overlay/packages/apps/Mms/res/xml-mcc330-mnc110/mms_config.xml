@@ -14,24 +14,19 @@
      limitations under the License.
 -->
 
-<!-- Version History
-        version 1 - initial version.
-        version 2 - added recipientLimit.
-        version 3 - added min/max recycler values.
-        version 4 - added sms to mms text threshold.
--->
+<!-- Claro PR -->
 
-<mms_config version="4">
+<mms_config version="3">
     <!-- Maximum message size in bytes for a MMS message -->
-    <int name="maxMessageSize">131072</int>
+    <int name="maxMessageSize">307200</int>
 
     <!-- Maximum height for an attached image -->
-    <int name="maxImageHeight">1944</int>
+    <int name="maxImageHeight">480</int>
 
     <!-- Maximum width for an attached image -->
-    <int name="maxImageWidth">2592</int>
+    <int name="maxImageWidth">640</int>
 
     <!-- UAProf URL -->
-    <string name="uaProfUrl">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="uaProfUrl">http://wap.samsungmobile.com/uaprof/samsung_android_mms.xml</string>
 
 </mms_config>
